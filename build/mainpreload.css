@@ -1,0 +1,273 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#welcome{
+    font-weight: 300;
+    opacity:inherit;
+    margin-top:10%;
+}
+#to{
+    font-weight: 300;
+    font-size:28px;
+    line-height: 10px
+}
+#sitename{
+    font-weight: 800;
+    margin-bottom:4%;
+}
+#loadtextgeneral{
+    z-index:1006;
+    text-align: center;
+    display:block;
+    position: relative;  
+    opacity:0;
+}
+
+.welcomeicon{
+    opacity:inherit;
+    -webkit-border-radius: 50%;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -ms-border-radius: 50%;
+    -ms-animation: pulsate 2s ease-out;
+    -ms-animation-iteration-count: infinite;
+    -moz-border-radius: 50%;
+    -moz-animation: pulsate 2s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -o-border-radius: 50%;
+    -o-animation: pulsate 2s ease-out;
+    -o-animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    z-index: 1005;
+}
+
+    @-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@-moz-keyframes pulsate {
+    0% {
+        -moz-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -moz-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@-ms-keyframes pulsate {
+    0% {
+        -ms-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -ms-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@-o-keyframes pulsate {
+    0% {
+        -o-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -o-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader {
+    text-align: center;
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    -webkit-border-radius: 50%;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -ms-border-radius: 50%;
+    -ms-animation: pulsate 2s ease-out;
+    -ms-animation-iteration-count: infinite;
+    -moz-border-radius: 50%;
+    -moz-animation: pulsate 2s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -o-border-radius: 50%;
+    -o-animation: pulsate 2s ease-out;
+    -o-animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    z-index: 1005;
+}
+
+    @-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@-moz-keyframes pulsate {
+    0% {
+        -moz-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -moz-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@-ms-keyframes pulsate {
+    0% {
+        -ms-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -ms-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@-o-keyframes pulsate {
+    0% {
+        -o-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -o-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+
+    #loader-wrapper .loader-section {
+        position: fixed;
+        top: 0;
+        width: 51%;
+        height: 100%;
+        background: #0f323c;
+        z-index: 1000;
+        -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(0);  /* IE 9 */
+        transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader-wrapper .loader-section.section-left {
+        left: 0;
+    }
+
+    #loader-wrapper .loader-section.section-right {
+        right: 0;
+    }
+
+    /* Loaded */
+    .loaded #loader-wrapper .loader-section.section-left {
+        -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(-100%);  /* IE 9 */
+                transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    .loaded #loader-wrapper .loader-section.section-right {
+        -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(100%);  /* IE 9 */
+                transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+    
+    .loaded #loader {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;  
+                transition: all 0.3s ease-out;
+    }
+    .loaded #loader-wrapper {
+        visibility: hidden;
+
+        -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateY(-100%);  /* IE 9 */
+                transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s ease-out;  
+                transition: all 0.7s 0.3s ease-out;
+    }
+    
+    /* JavaScript Turned Off */
+    .no-js #loader-wrapper {
+        display: none;
+    }  
